@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="id" value="20235496-6f15-459f-a084-c3be0a8d9109" />
+          <option name="name" value="paypal_api" />
+          <option name="requests">
+            <list>
+              <requestState>
+                <option name="auth">
+                  <authState>
+                    <option name="type" value="BEARER" />
+                  </authState>
+                </option>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;intent&quot;: &quot;CAPTURE&quot;,&#10;  &quot;purchase_units&quot;: [&#10;    {&#10;      &quot;reference_id&quot;: &quot;d9f80740-38f0-11e8-b467-0ed5f89f718b&quot;,&#10;      &quot;amount&quot;: {&#10;        &quot;currency_code&quot;: &quot;USD&quot;,&#10;        &quot;value&quot;: &quot;100.00&quot;&#10;      }&#10;    }&#10;  ]&#10;  &#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                    <headerState>
+                      <option name="key" value="Authorization" />
+                      <option name="value" value="Bearer A21AAJ_kApivuhL1_PUb4QvkCE5cGJCtVTFdMxsXR2AXvRAu-KqVKF0POJlSsdmmkSui7dkxarExaoZd3wCk7Trb3hNYFUhIA" />
+                    </headerState>
+                    <headerState>
+                      <option name="key" value="PayPal-Request-Id" />
+                      <option name="value" value="7b92603e-77ed-4896-8e78-5dea2050476a" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="5287e08d-2813-45fd-9967-b672ab53fa35" />
+                <option name="method" value="POST" />
+                <option name="name" value="Get Order" />
+                <option name="url" value="https://api-m.sandbox.paypal.com/v2/checkout/orders" />
+              </requestState>
+              <requestState>
+                <option name="auth">
+                  <authState>
+                    <option name="bearer">
+                      <iK>
+                        <option name="token" value="A21AAJ_kApivuhL1_PUb4QvkCE5cGJCtVTFdMxsXR2AXvRAu-KqVKF0POJlSsdmmkSui7dkxarExaoZd3wCk7Trb3hNYFUhIA" />
+                      </iK>
+                    </option>
+                    <option name="type" value="BEARER" />
+                  </authState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="disabled" value="true" />
+                      <option name="key" value="Authorization" />
+                      <option name="value" value="Bearer A21AAJ_kApivuhL1_PUb4QvkCE5cGJCtVTFdMxsXR2AXvRAu-KqVKF0POJalSsdmmkSui7dkxarExaoZd3wCk7Trb3hNYFUhIA" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="e857fc12-bc3b-447f-ae86-73ddb464782a" />
+                <option name="method" value="GET" />
+                <option name="name" value="Get Create Order List" />
+                <option name="url" value="https://api.sandbox.paypal.com/v2/checkout/orders/0D896673FF181804W" />
+              </requestState>
+            </list>
+          </option>
+          <option name="sortWeight" value="1000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="C:\Users\2271259\Downloads\rest-assure\cucumber-rest-paypal-api\.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="682acdcf-4326-46cf-9673-475b25dbffd4" />
+  </component>
+</project>
